@@ -1,0 +1,68 @@
+tasks:
+  - before: bundle install
+image:
+  file: .gitpod.Dockerfile
+vscode:
+  extensions:
+    - aaron-bond.better-comments
+    - adpyke.codesnap
+    - ahmadawais.emoji-log-vscode
+    - aki77.rails-db-schema
+    - aki77.rails-i18n
+    - aki77.rails-routes
+    - albert.tabout
+    - aliariff.auto-add-brackets
+    - benspaulding.procfile
+    - bung87.rails
+    - castwide.solargraph
+    - christian-kohler.path-intellisense
+    - CraigMaslowski.erb
+    - donjayamanne.githistory
+    - Dunn.redis
+    - editorconfig.editorconfig
+    - eriklynd.json-tools
+    - esbenp.prettier-vscode
+    - formulahendry.auto-close-tag
+    - formulahendry.auto-rename-tag
+    - GauravSharma.colorized-access-modifier
+    - GitHub.copilot
+    - GitHub.copilot-chat
+    - GitHub.copilot-labs
+    - GitHub.remotehub
+    - github.vscode-github-actions
+    - GitHub.vscode-pull-request-github
+    - gruntfuggly.todo-tree
+    - hbenl.vscode-test-explorer
+    - howardzuo.vscode-git-tags
+    - jnbt.vscode-rufo
+    - johnpapa.vscode-cloak
+    - kaiwood.endwise
+    - kosai106.ruby-syntax-replacer
+    - makicamel.rails-routes-navigator
+    - MateuszDrewniak.ruby-test-runner
+    - meganrogge.template-string-converter
+    - miguel-savignano.ruby-symbols
+    - mikestead.dotenv
+    - misogi.ruby-rubocop
+    - mrmlnc.vscode-duplicate
+    - ms-vscode.live-server
+    - ms-vsliveshare.vsliveshare
+    - mtxr.sqltools
+    - mtxr.sqltools-driver-pg
+    - naumovs.color-highlight
+    - oderwat.indent-rainbow
+    - qcz.text-power-tools
+    - redhat.vscode-yaml
+    - sarahridge.vscode-rails-syntax
+    - Shopify.ruby-lsp
+    - streetsidesoftware.code-spell-checker
+    - tavo.rails-schema
+    - usernamehw.errorlens
+    - vincaslt.highlight-matching-tag
+    - VisualStudioExptTeam.vscodeintellicode
+github:
+  prebuilds:
+    addBadge: true
+    addComment: true
+    branches: false
+    master: false
