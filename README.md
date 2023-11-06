@@ -1,2 +1,3 @@
-# payment-wallet
-Ruby wallet app
+# Basic Ruby Cloud environment
+* Cloud environment for ruby development
+
